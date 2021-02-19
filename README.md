@@ -3,48 +3,15 @@
 This `README.md` documents the process of creating a `Virtual Hackintosh`
 system.
 
-Note: All blobs and resources included in this repository are re-derivable (all
-instructions are included!).
+I am doing some changes to OSX-KVM to suit for libvirt/virt-manager better.
 
-:green_heart: Looking for **commercial** support with this stuff? I am [available
-over email](mailto:dhiru.kholia@gmail.com?subject=[GitHub]%20OSX-KVM%20Commercial%20Support%20Request&body=Hi%20-%20We%20are%20interested%20in%20purchasing%20commercial%20support%20options%20for%20your%20project.) for a chat for **commercial support options only**.
+This project can always use your help, time and attention.   
 
-Working with `Proxmox` and macOS? See [Nick's blog for sure](https://www.nicksherlock.com/).
+### Appreciation  
 
-Yes, we support offline macOS installations now 🎉
+This repo is forked from https://github.com/kholia/OSX-KVM.
 
-
-### Contributing Back
-
-This project can always use your help, time and attention. I am looking for
-help (pull-requests!) with the following work items:
-
-* Documentation around running macOS on popular cloud providers (Hetzner, GCP,
-  AWS). See the `Is This Legal?` section and associated references.
-
-* Test QEMU's `accel=hvf` flag on macOS on MacBook Pro.
-
-* Document (share) how you use this project to build + test open-source
-  projects / get your stuff done.
-
-* Document how to use this project for XNU kernel debugging and development.
-
-* Document the process to create and reuse VM snapshots. Instantaneous macOS
-  boots would be nice this way.
-
-* Document the process to launch a bunch of headless macOS VMs (build farm).
-
-* Document usage of [munki](https://github.com/munki/munki) to deploy software
-  to such a `build farm`.
-
-* Enable VNC + SSH support out of the box or more easily.
-
-* Better support + docs for AMD Ryzen.
-
-* Robustness improvements are always welcome!
-
-* (Not so) crazy idea - automate the macOS installation via OpenCV.
-
+Thanks for all the contributions from the developers of the repository above!  
 
 ### Requirements
 
@@ -265,5 +232,3 @@ devices now work decently enough on modern versions of Ubuntu (Yay for free
 software). Also, a long time back, I had to completely wipe my (then) brand new
 `MacBook Pro (Retina, 15-inch, Late 2013)` and install Xubuntu on it - as the
 `OS X` kernel kept crashing on it!
-
-Backstory: I was a (poor) student in Canada once and Apple made [my work on cracking Apple Keychains](https://github.com/openwall/john/blob/bleeding-jumbo/src/keychain_fmt_plug.c) a lot harder than it needed to be. This is how I got interested in Hackintosh systems.
